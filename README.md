@@ -27,7 +27,7 @@ Intervention\Image\ImageServiceProvider::class,
 參考我的 Controller 範例去更改成自己需要的
 
 範例 HTML：
-```
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +48,7 @@ Intervention\Image\ImageServiceProvider::class,
 ```
 
 範例 Controller：
-```
+```PHP
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
