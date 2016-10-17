@@ -6,18 +6,23 @@
 安裝步驟：
 
 在安裝目錄輸入：
-
+```
 composer require intervention/image
-
 php artisan cache:clear
+```
 
-在 config/app.php 下建立：
+在 config/app.php 的 $providers 下增加：
 
-$providers -> Intervention\Image\ImageServiceProvider::class
+```
+Intervention\Image\ImageServiceProvider::class,
+```
+在 config/app.php 的 $aliases 下增加：
 
-$aliases -> 'Image' => Intervention\Image\Facades\Image::class
+```
+'Image' => Intervention\Image\Facades\Image::class,
+```
 
-在 Controller 下 use Image;
+在 Controller 下 ```use Image;```
 
 參考我的 Controller 範例去更改成自己需要的
 
