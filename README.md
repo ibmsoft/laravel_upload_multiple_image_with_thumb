@@ -1,7 +1,7 @@
 # laravel_upload_multiple_image_with_thumb
 實現多個檔案上傳處理兼縮圖，且自動移除 temp file
 
-本套件依賴 intervention/image
+本程式碼使用 intervention/image 套件
 
 安裝步驟：
 
