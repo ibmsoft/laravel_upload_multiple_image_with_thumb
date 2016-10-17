@@ -1,0 +1,2 @@
+# laravel_upload_multiple_image_with_thumb
+實現多個檔案上傳處理兼縮圖，且自動移除 temp file
