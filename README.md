@@ -1,5 +1,7 @@
 # laravel_upload_multiple_image_with_thumb
-實現多個檔案上傳處理兼縮圖，且自動移除 temp file
+實現多個檔案上傳處理兼縮圖，且自動移除暫存檔案
+
+檔案名稱使用 時間戳記+5碼亂數+原始檔名 組成的 md5 編碼
 
 本程式碼使用 intervention/image 套件
 
