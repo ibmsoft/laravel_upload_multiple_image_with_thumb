@@ -119,4 +119,7 @@ class PhotoController extends Controller
 ```
 
 輸出範例：
-```["ff1fad6f86aaeee2c6c05dc989febcca.jpg","8ffe12b915bd24ec33dba151e233709a.jpg","5588216b4e19ffd58f8b343ef857c260.jpg"]```
+
+```
+["ff1fad6f86aaeee2c6c05dc989febcca.jpg","8ffe12b915bd24ec33dba151e233709a.jpg","5588216b4e19ffd58f8b343ef857c260.jpg"]
+```
