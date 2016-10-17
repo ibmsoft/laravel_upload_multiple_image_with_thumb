@@ -32,7 +32,7 @@ Intervention\Image\ImageServiceProvider::class,
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Demo multiple image upload</title>
 </head>
 <body>
     <form action="/test" method="POST" enctype="multipart/form-data">
