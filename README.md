@@ -3,6 +3,8 @@
 
 檔案名稱使用 時間戳記+5碼亂數+原始檔名 組成的 md5 編碼
 
+上傳的檔案會放在 public/uploads 底下
+
 本程式碼使用 intervention/image 套件
 
 安裝步驟：
@@ -125,3 +127,35 @@ class PhotoController extends Controller
 ```
 ["ff1fad6f86aaeee2c6c05dc989febcca.jpg","8ffe12b915bd24ec33dba151e233709a.jpg","5588216b4e19ffd58f8b343ef857c260.jpg"]
 ```
+
+補充：
+
+如果上傳後不要轉成檔案，要以base64處理可以把
+
+```
+$image->save(public_path('uploads/thumb/') . $newFileName);
+```
+
+改成：
+
+```
+$image->encode('data-url');
+```
+
+將會輸出成：
+
+```
+```
+
+或是：
+
+```
+$image->encode('jpg', 75);
+```
+
+將會輸出成：
+
+```
+```
+
+參考連結:[http://image.intervention.io/](http://image.intervention.io/ "Title")
