@@ -145,18 +145,7 @@ $image->encode('data-url');
 將會輸出成：
 
 ```
-data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBl
-```
-
-或是：
-
-```
-$image->encode('jpg', 75);
-```
-
-將會輸出成：
-
-```
+data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBl ...
 ```
 
 參考連結:[http://image.intervention.io/](http://image.intervention.io/ "Title")
